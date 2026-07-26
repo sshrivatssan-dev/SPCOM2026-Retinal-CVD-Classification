@@ -1,0 +1,44 @@
+# Dataset
+Fundus_CIMT_2903 Dataset/
+Fundus_green/
+Fundus_green_CLAHE_only/
+Fundus_green_CLAHE_minmax/
+data_info.json
+
+# Generated wavelet outputs
+DWT_subbands/
+Wavelet_energy/
+Autocorrelation/
+Wavelet_graph/
+Graph_visualization/
+
+# Tensor caches
+EfficientNetB0_tensor_cache/
+DenseNet121_tensor_cache/
+fundus_tensor_cache/
+fundus_tensor_cache_224/
+
+# Model outputs
+EfficientNetB0_FundusOnly/
+DenseNet121_FundusOnly/
+
+# Trained models
+*.pt
+
+# Generated CSVs
+*.csv
+
+# PDFs
+*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Old notebooks
+Initial Work.ipynb
+Revised-1.ipynb
+Corrected_code_for_camera_ready_main.ipynb
